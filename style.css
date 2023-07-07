@@ -1,0 +1,25 @@
+/* Styles for the information section */
+.information-section {
+    padding: 40px;
+    background-color: #ffffff; /* Default background color for light mode */
+    color: #333333; /* Default text color for light mode */
+  }
+  
+  .information-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .information-section p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Styles for dark mode on larger screens */
+  @media (min-width: 768px) {
+    .information-section {
+      background-color: #333333; /* Dark background color for dark mode */
+      color: #ffffff; /* Light text color for dark mode */
+    }
+  }
+  
